@@ -11,23 +11,22 @@
 </head>
 <body>
   <div id="container">
-      <div id="game-window">
-        <form id='handle-form' action="submit">
-          <input id="handle" type="text" placeholder="Handle">
-          <input type="submit" value="Get Name">
-        </form>
-        <div id="output"></div>
-        <div id="feedback"></div>
-      </div>
-      <form id="message-form" action="submit">
-        <input id="message" type="text" placeholder="Message">
-        <input type="submit" style="visibility: hidden">
-      </form>
+    <form id='handle-form' action="submit">
+      <input id="handle" type="text" placeholder="Handle">
+      <input type="submit" value="Get Name">
+    </form>
+    <div id="game-window">
+      <div id="output"></div>
+      <div id="feedback"></div>
     </div>
-    <button id="newGame">New Game</button>
-    <h3>Players</h3>
-    <div id="players"></div>
-    
+    <form id="message-form" action="submit">
+      <input id="message" type="text" placeholder="Message">
+      <input type="submit" style="visibility: hidden">
+    </form>
+  </div>
+  <button id="newGame">New Game</button>
+  <h3>Players</h3>
+  <div id="players"></div>
   <script src="client.js"></script>
 </body>
 </html>

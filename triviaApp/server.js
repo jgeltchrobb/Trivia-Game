@@ -2,8 +2,6 @@ const express = require('express')
 const socket = require('socket.io')
 const fetch = require("node-fetch");
 const port = 9001
-const question = "How did harry meet sally"
-const answer = "yes"
 let players = []
 let questions = null
 

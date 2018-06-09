@@ -12,11 +12,14 @@
 <body>
   <div id="container">
       <div id="game-window">
+        <form id='handle-form' action="submit">
+          <input id="handle" type="text" placeholder="Handle">
+          <input type="submit" value="Get Name">
+        </form>
         <div id="output"></div>
         <div id="feedback"></div>
       </div>
-      <form action="submit">
-        <input id="handle" type="text" placeholder="Handle">
+      <form id="message-form" action="submit">
         <input id="message" type="text" placeholder="Message">
         <input type="submit" style="visibility: hidden">
       </form>
